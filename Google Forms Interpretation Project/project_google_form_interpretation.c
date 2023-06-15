@@ -52,10 +52,10 @@ int main()
     heading[strlen(heading) - 1] = '\0';
     line = get_console_line_number();
     clear_screen(line, 0, line, strlen(enter_heading) + strlen(heading));
-    printf("%20s%s\n", " ", heading);
-    fprintf(fptr, "%20s%s\n", " ", heading);
-    printf("%20s", " ");
-    fprintf(fptr, "%20s", " ");
+    printf("%10s%10s\n", " ", heading);
+    fprintf(fptr, "%10s%10s\n", " ", heading);
+    printf("%10s", " ");
+    fprintf(fptr, "%10s", " ");
     for (int i = 0; i < strlen(heading); i++)
     {
         printf("-");
