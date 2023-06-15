@@ -1,0 +1,209 @@
+1. What is the size of int data type in C?
+a) 2 bytes
+b) 4 bytes
+c) 8 bytes
+d) 1 byte
+b
+
+2. Which keyword is used to define a constant in C?
+a) const
+b) constant
+c) var
+d) #define
+a
+
+3. What is the output of the following code? printf("%d", sizeof(3.14));
+a) 4
+b) 8
+c) 1
+d) Error
+b
+
+4. Which operator is used to access the value at a specific memory address in C?
+a) *
+b) &
+c) $
+d) #
+a
+
+5. How do you declare a pointer variable in C?
+a) int ptr;
+b) ptr int;
+c) *ptr int;
+d) int *ptr;
+d
+
+6. What is the output of the following code?   printf("%d", 10 << 1);
+a) 5
+b) 20
+c) 2
+d) Error
+b
+
+7. Which header file should be included to perform input and output operations in C?
+a) stdlib.h
+b) math.h
+c) stdio.h
+d) string.h
+c
+
+8. What is the output of the following code?   int x = 5; printf("%d", x++);
+a) 5
+b) 6
+c) 4
+d) Error
+a
+
+9. What is the purpose of the break statement in a switch statement?
+a) Terminate the program
+b) Skip the current iteration of a loop
+c) Exit from the switch statement
+d) None of the above
+c
+
+10. What is the output of the following code?   int x = 10; int y = x > 5 ? 1 : 0; printf("%d", y);
+a) 1
+b) 10
+c) 0
+d) Error
+a
+
+11. Which type of loop is used to execute a block of code repeatedly as long as a condition is true?
+a) for loop
+b) while loop
+c) do-while loop
+d) switch loop
+b
+
+12. What is the output of the following code? int arr[3] = {1, 2, 3}; printf("%d", arr[1]);
+a) 1
+b) 2
+c) 3
+d) Error
+b
+
+13. Which operator is used to access the member of a structure variable?
+a) .
+b) *
+c) ->
+d) ::
+a
+
+14. What is the output of the following code? int x = 5; int y = ++x; printf("%d", y);
+a) 5
+b) 6
+c) 4
+d) Error
+b
+
+15. Which keyword is used to declare a void function in C?
+a) int
+b) char
+c) float
+d) void
+d
+
+16. What is the output of the following code? int x = 10; int y = x--; printf("%d", y);
+a) 10
+b) 9
+c) 11
+d) Error
+a
+
+17. Which header file should be included to use the malloc and free functions in C?
+a) stdlib.h
+b) math.h
+c) stdio.h
+d) string.h
+a
+
+18. What is the output of the following code? int x = 5; int y = 2; printf("%d", x % y);
+a) 3
+b) 2
+c) 1
+d) 0
+c
+
+19. Which operator is used to access elements of an array in C?
+a) *
+b) &
+c) []
+d) $
+c
+
+20. What is the output of the following code? int x = 5; int y = sizeof(x++); printf("%d", x);
+a) 5
+b) 6
+c) 4
+d) Error
+a
+
+21. Which type of variable has a scope limited to the block where it is defined?
+a) Global variable
+b) Local variable
+c) Static variable
+d) Constant variable
+b
+
+22. What is the output of the following code? int x = 10; printf("%f", (float)x);
+a) 10.0
+b) 10
+c) 0.0
+d) Error
+a
+
+23. Which keyword is used to exit from a function in C?
+a) return
+b) exit
+c) break
+d) continue
+a
+
+24. What is the output of the following code? int x = 5; int y = x + 2; printf("%d", y);
+a) 5
+b) 7
+c) 2
+d) Error
+b
+
+25. Which operator is used to perform logical AND in C?
+a) &&
+b) ||
+c) !
+d) &
+a
+
+26. What is the output of the following code? int x = 10; printf("%d", ++x);
+a) 10
+b) 11
+c) 9
+d) Error
+b
+
+27. Which function is used to read a character from the standard input in C?
+a) scanf
+b) gets
+c) getchar
+d) read
+c
+
+28. What is the output of the following code? int x = 5; int y = (x > 2) && (x < 10); printf("%d", y);
+a) 1
+b) 0
+c) 5
+d) Error
+a
+
+29. Which operator is used to perform pointer arithmetic in C?
+a) *
+b) &
+c) +
+d) =
+c
+
+30. What is the output of the following code? int x = 5; int y = 2; printf("%d", x / y);
+a) 7
+b) 2.5
+c) 2
+d) Error
+c
